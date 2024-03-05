@@ -1,7 +1,6 @@
 import Link from "next/link";
 
 export default function Page() {
-  console.log("Modal");
   return (
     <div>
       <h1>Modal</h1>
@@ -20,7 +19,3 @@ export default function Page() {
     </div>
   );
 }
-
-export const dynamic = "force-dynamic";
-export const fetchCache = "default-cache";
-export const runtime = "edge";
