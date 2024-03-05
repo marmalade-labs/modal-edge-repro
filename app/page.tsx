@@ -1,4 +1,5 @@
-/** Add your relevant code here for the issue to reproduce */
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return null;
+  redirect("/for-you")
 }
