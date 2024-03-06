@@ -17,4 +17,5 @@ const ForYouPage = () => {
   );
 };
 
+export const runtime = "edge";
 export default ForYouPage;

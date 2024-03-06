@@ -5,3 +5,5 @@ export default function Page({
 }) {
   return <h1>{productId}</h1>;
 }
+
+export const runtime = "edge";
